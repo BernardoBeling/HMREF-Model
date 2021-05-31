@@ -245,6 +245,11 @@ static const Int MAX_ENCODER_DEBLOCKING_QUALITY_LAYERS =           8 ;
 
 static const UInt LUMA_LEVEL_TO_DQP_LUT_MAXSIZE =                1024; ///< max LUT size for QP offset based on luma
 
+static const int mSizeX = 1024; //4096/4 (resH / puSize 4x4)
+static const int mSizeY = 512; //2048/4 (resV / puSize 4x4)
+static const int rmdList = 8;
+static const int mpmList = 3;
+
 // ====================================================================================================================
 // Macro functions
 // ====================================================================================================================

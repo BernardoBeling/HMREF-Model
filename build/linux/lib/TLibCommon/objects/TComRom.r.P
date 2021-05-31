@@ -1,0 +1,35 @@
+objects/TComRom.r.o: \
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComRom.cpp \
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComRom.h \
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/CommonDef.h \
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TypeDef.h \
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComDataCU.h \
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComMotionInfo.h \
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComMv.h \
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComSlice.h \
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComList.h \
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComChromaFormat.h \
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComRectangle.h \
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/ContextTables.h \
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/Debug.h \
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/CommonDef.h \
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComRdCost.h \
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComPattern.h \
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComRdCostWeightPrediction.h
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComRom.cpp :
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComRom.h :
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/CommonDef.h :
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TypeDef.h :
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComDataCU.h :
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComMotionInfo.h :
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComMv.h :
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComSlice.h :
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComList.h :
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComChromaFormat.h :
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComRectangle.h :
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/ContextTables.h :
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/Debug.h :
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/CommonDef.h :
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComRdCost.h :
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComPattern.h :
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComRdCostWeightPrediction.h :

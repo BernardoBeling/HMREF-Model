@@ -1,0 +1,11 @@
+objects/TApp360PicYuv.d.o: \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/App/utils/TApp360Convert/TApp360PicYuv.cpp \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/App/utils/TApp360Convert/TApp360PicYuv.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/TLibCommon/CommonDef.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/TLibCommon/TypeDef.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/App/utils/TApp360Convert/TApp360ChromaFormat.h
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/App/utils/TApp360Convert/TApp360PicYuv.cpp :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/App/utils/TApp360Convert/TApp360PicYuv.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/TLibCommon/CommonDef.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/TLibCommon/TypeDef.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/App/utils/TApp360Convert/TApp360ChromaFormat.h :

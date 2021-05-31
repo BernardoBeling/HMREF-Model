@@ -1,0 +1,27 @@
+objects/NALread.r.o: \
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibDecoderAnalyser/../../../../source/Lib/TLibDecoder/NALread.cpp \
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibDecoderAnalyser/../../../../source/Lib/TLibDecoder/NALread.h \
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibDecoderAnalyser/../../../../source/Lib/TLibCommon/CommonDef.h \
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibDecoderAnalyser/../../../../source/Lib/TLibCommon/TypeDef.h \
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibDecoderAnalyser/../../../../source/Lib/TLibCommon/TComBitStream.h \
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibDecoderAnalyser/../../../../source/Lib/TLibCommon/CommonDef.h \
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibDecoderAnalyser/../../../../source/Lib/TLibCommon/NAL.h \
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibDecoderAnalyser/../../../../source/Lib/TLibCommon/TComCodingStatistics.h \
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibDecoderAnalyser/../../../../source/Lib/TLibCommon/TComChromaFormat.h \
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibDecoderAnalyser/../../../../source/Lib/TLibCommon/TComRectangle.h \
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibDecoderAnalyser/../../../../source/Lib/TLibCommon/ContextTables.h \
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibDecoderAnalyser/../../../../source/Lib/TLibCommon/TComRom.h \
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibDecoderAnalyser/../../../../source/Lib/TLibCommon/Debug.h
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibDecoderAnalyser/../../../../source/Lib/TLibDecoder/NALread.cpp :
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibDecoderAnalyser/../../../../source/Lib/TLibDecoder/NALread.h :
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibDecoderAnalyser/../../../../source/Lib/TLibCommon/CommonDef.h :
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibDecoderAnalyser/../../../../source/Lib/TLibCommon/TypeDef.h :
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibDecoderAnalyser/../../../../source/Lib/TLibCommon/TComBitStream.h :
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibDecoderAnalyser/../../../../source/Lib/TLibCommon/CommonDef.h :
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibDecoderAnalyser/../../../../source/Lib/TLibCommon/NAL.h :
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibDecoderAnalyser/../../../../source/Lib/TLibCommon/TComCodingStatistics.h :
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibDecoderAnalyser/../../../../source/Lib/TLibCommon/TComChromaFormat.h :
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibDecoderAnalyser/../../../../source/Lib/TLibCommon/TComRectangle.h :
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibDecoderAnalyser/../../../../source/Lib/TLibCommon/ContextTables.h :
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibDecoderAnalyser/../../../../source/Lib/TLibCommon/TComRom.h :
+ /home/bernardo/Documentos/HMREF-Model/build/linux/lib/TLibDecoderAnalyser/../../../../source/Lib/TLibCommon/Debug.h :

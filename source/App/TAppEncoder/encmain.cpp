@@ -39,6 +39,9 @@
 #include <iostream>
 #include "TAppEncTop.h"
 #include "TAppCommon/program_options_lite.h"
+#include <cstdlib>
+#include <fstream>
+#include "TLibCommon/TComDataCU.h"
 
 //! \ingroup TAppEncoder
 //! \{
@@ -49,11 +52,25 @@
 // Main function
 // ====================================================================================================================
 
+Int** samplesMatrix;
+IntraData m64[mSizeY][mSizeX];
+IntraData m32[mSizeY][mSizeX];
+IntraData m16[mSizeY][mSizeX];
+IntraData m8[mSizeY][mSizeX];
+IntraData m4[mSizeY][mSizeX];
+ofstream intraDataFile;
+
 int main(int argc, char* argv[])
 {
   TAppEncTop  cTAppEncTop;
 
-  // print information
+  intraDataFile.open("intraDataFile.csv");
+  intraDataFile << "Frame,PosY,PosX,Size,BestMode,BestModeCost,Variance,coCost,AboveCost,LeftCost,AboveLeftCost,AboveRightCost,"
+                     "MPM1,MPM2,MPM3,RMD1,RMD2,RMD3,RMD4,RMD5,RMD6,RMD7,RMD8,Cost0,Cost1,Cost2,Cost3,Cost4,Cost5,Cost6,Cost7,Cost8,"
+                     "Cost9,Cost10,Cost11,Cost12,Cost13,Cost14,Cost15,Cost16,Cost17,Cost18,Cost19,Cost20,Cost21,Cost22,Cost23,"
+                     "Cost24,Cost25,Cost26,Cost27,Cost28,Cost29,Cost30,Cost31,Cost32,Cost33,Cost34" << endl;
+
+    // print information
   fprintf( stdout, "\n" );
   fprintf( stdout, "HM software: Encoder Version [%s] (including RExt)", NV_VERSION );
   fprintf( stdout, NVM_ONOS );
@@ -103,6 +120,8 @@ int main(int argc, char* argv[])
 
   // destroy application encoder class
   cTAppEncTop.destroy();
+
+  intraDataFile.close();
 
   return 0;
 }

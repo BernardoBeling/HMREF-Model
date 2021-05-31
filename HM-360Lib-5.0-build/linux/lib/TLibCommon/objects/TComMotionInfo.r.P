@@ -1,0 +1,11 @@
+objects/TComMotionInfo.r.o: \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComMotionInfo.cpp \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComMotionInfo.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/CommonDef.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TypeDef.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComMv.h
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComMotionInfo.cpp :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComMotionInfo.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/CommonDef.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TypeDef.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComMv.h :

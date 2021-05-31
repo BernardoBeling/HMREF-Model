@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dbf64b76-9ce2-46e2-9f3e-f4501a178d07" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/build/linux/common/makefile.base" beforeDir="false" afterPath="$PROJECT_DIR$/build/linux/common/makefile.base" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/App/TAppEncoder/encmain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/App/TAppEncoder/encmain.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/Lib/TLibCommon/CommonDef.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/Lib/TLibCommon/CommonDef.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/Lib/TLibCommon/TComDataCU.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/Lib/TLibCommon/TComDataCU.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/Lib/TLibEncoder/TEncSearch.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/Lib/TLibEncoder/TEncSearch.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/Lib/TLibEncoder/TEncSlice.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/Lib/TLibEncoder/TEncSlice.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/source/Lib/TLibEncoder/TEncSearch.cpp" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1tJnvVV9WlsOFoXHzoyRmn9ZlhP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HM-360Lib-5.0-build/linux/makefile" />
+  </component>
+  <component name="RunManager" selected="Makefile Target.make clean 360">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="make 360" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile">
+      <makefile filename="$PROJECT_DIR$/HM-360Lib-5.0-build/linux/makefile" target="" workingDirectory="" arguments="-j 8">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="make clean 360" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile">
+      <makefile filename="$PROJECT_DIR$/HM-360Lib-5.0-build/linux/makefile" target="" workingDirectory="" arguments="-j 8">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="make clean" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile">
+      <makefile filename="$PROJECT_DIR$/build/linux/makefile" target="clean" workingDirectory="" arguments="-j 8">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="make" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile">
+      <makefile filename="$PROJECT_DIR$/build/linux/makefile" target="" workingDirectory="" arguments="-j 8">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Makefile Target.make" />
+      <item itemvalue="Makefile Target.make 360" />
+      <item itemvalue="Makefile Target.make clean 360" />
+      <item itemvalue="Makefile Target.make clean" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dbf64b76-9ce2-46e2-9f3e-f4501a178d07" name="Default Changelist" comment="" />
+      <created>1622496290452</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622496290452</updated>
+      <workItem from="1622496291597" duration="3581000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

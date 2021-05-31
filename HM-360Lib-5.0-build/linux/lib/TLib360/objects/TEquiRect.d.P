@@ -1,0 +1,33 @@
+objects/TEquiRect.d.o: \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/TLib360/TEquiRect.cpp \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/TLib360/TEquiRect.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/TLib360/TGeometry.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/TLib360/../TLibCommon/CommonDef.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/TLib360/../TLibCommon/TypeDef.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/TLib360/../TLibCommon/TComPicYuv.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/TLib360/../TLibCommon/CommonDef.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/TLib360/../TLibCommon/TComRom.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/TLib360/../TLibCommon/TComChromaFormat.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/TLib360/../TLibCommon/TComRectangle.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/TLib360/../TLibCommon/ContextTables.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/TLib360/../TLibCommon/Debug.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/TLibCommon/CommonDef.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/TLib360/../TLibCommon/SEI.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/libmd5/MD5.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/libmd5/libmd5.h
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/TLib360/TEquiRect.cpp :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/TLib360/TEquiRect.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/TLib360/TGeometry.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/TLib360/../TLibCommon/CommonDef.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/TLib360/../TLibCommon/TypeDef.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/TLib360/../TLibCommon/TComPicYuv.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/TLib360/../TLibCommon/CommonDef.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/TLib360/../TLibCommon/TComRom.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/TLib360/../TLibCommon/TComChromaFormat.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/TLib360/../TLibCommon/TComRectangle.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/TLib360/../TLibCommon/ContextTables.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/TLib360/../TLibCommon/Debug.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/TLibCommon/CommonDef.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/TLib360/../TLibCommon/SEI.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/libmd5/MD5.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLib360/../../../../source/Lib/libmd5/libmd5.h :

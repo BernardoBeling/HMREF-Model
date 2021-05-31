@@ -1,0 +1,35 @@
+objects/convertmain.r.o: \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/App/utils/TApp360Convert/convertmain.cpp \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/App/utils/TApp360Convert/TApp360ConvertCfg.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/TLibCommon/CommonDef.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/TLibCommon/TypeDef.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/TLib360/TGeometry.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/TLib360/../TLibCommon/CommonDef.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/TLib360/../TLibCommon/TComPicYuv.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/TLib360/../TLibCommon/CommonDef.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/TLib360/../TLibCommon/TComRom.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/TLib360/../TLibCommon/TComChromaFormat.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/TLib360/../TLibCommon/TComRectangle.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/TLib360/../TLibCommon/ContextTables.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/TLib360/../TLibCommon/Debug.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/TLib360/../TLibCommon/SEI.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/libmd5/MD5.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/libmd5/libmd5.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/TAppCommon/program_options_lite.h
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/App/utils/TApp360Convert/convertmain.cpp :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/App/utils/TApp360Convert/TApp360ConvertCfg.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/TLibCommon/CommonDef.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/TLibCommon/TypeDef.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/TLib360/TGeometry.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/TLib360/../TLibCommon/CommonDef.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/TLib360/../TLibCommon/TComPicYuv.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/TLib360/../TLibCommon/CommonDef.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/TLib360/../TLibCommon/TComRom.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/TLib360/../TLibCommon/TComChromaFormat.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/TLib360/../TLibCommon/TComRectangle.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/TLib360/../TLibCommon/ContextTables.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/TLib360/../TLibCommon/Debug.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/TLib360/../TLibCommon/SEI.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/libmd5/MD5.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/libmd5/libmd5.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/app/TApp360Convert/../../../../source/Lib/TAppCommon/program_options_lite.h :

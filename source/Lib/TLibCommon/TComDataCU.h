@@ -41,6 +41,7 @@
 
 #include <algorithm>
 #include <vector>
+#include <fstream>
 
 // Include files
 #include "CommonDef.h"
@@ -59,6 +60,113 @@ static const UInt NUM_MOST_PROBABLE_MODES=3;
 // ====================================================================================================================
 // Class definition
 // ====================================================================================================================
+
+/***************Bernardo Beling IntraData class******************/
+class IntraData
+{
+private:
+
+    Int m_posV;   //Block vertical position
+    Int m_posH;   //Block horizontal position
+    Int m_size;   //Block size
+    Int m_bestMode;   //Block best prediction mode selected
+    Int m_frame;  //Block current frame
+    Int m_rmdList[rmdList] = {-1,-1,-1,-1,-1,-1,-1,-1};     //Block RMD modes list
+    Int m_mpmList[mpmList] = {-1,-1,-1};     //Block MPMs list
+    Double m_rmdCostList[35] = {-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1};     //Block RMD Rd-Cost list
+    Double m_bestModeCost;     //Block best prediction mode RD-Cost
+    Double m_coBestModeCost;    //Co-located block best prediction mode RD-Cost
+    Double m_aboveCost;    //Above left block best prediction mode RD-Cost
+    Double m_leftCost;    //Left block best prediction mode RD-Cost
+    Double m_aboveLeftCost;    //Above left block best prediction mode RD-Cost
+    Double m_aboveRightCost;    //Above right block best prediction mode RD-Cost
+
+    float m_variance;   //Block luma variance
+
+public:
+
+    IntraData(){
+
+    }
+
+    Int getPosV(){  return m_posV; }
+    Int getPosH(){  return m_posH; }
+    Int getSize(){  return m_size; }
+    float getVariance(){  return m_variance;    }
+    Int getBestMode(){  return m_bestMode;    }
+    Double getBestModeCost(){  return m_bestModeCost;    }
+    Double getCoBestModeCost(){  return m_coBestModeCost;    }
+    Double getAboveCost(){  return m_aboveCost;    }
+    Double getLeftCost(){  return m_leftCost;    }
+    Double getAboveLeftCost(){  return m_aboveLeftCost;    }
+    Double getAboveRightCost(){  return m_aboveRightCost;    }
+    Int getFrame(){  return m_frame;  }
+    Int getRmdList(int i){    return m_rmdList[i];   }
+    Int getMpmList(int i){    return m_mpmList[i];   }
+
+    void setPosV (int posV){   m_posV = posV; }
+    void setPosH (int posH){   m_posH = posH; }
+    void setSize (int size){ m_size = size;    }
+    void setFrame (int frame){ m_frame = frame;  }
+    void setVariance (float var){   m_variance = var;   }
+    void setBestMode (int bestMode){    m_bestMode = bestMode;  }
+    void setBestModeCost (Double bestModeCost){    m_bestModeCost = bestModeCost;  }
+    void setCoBestModeCost (Double coBestModeCost){
+        if(m_frame == 0) {
+            m_coBestModeCost = -1;
+            return;
+        }
+        m_coBestModeCost = coBestModeCost;
+    }
+    void setAboveCost (Double aboveCost, int y){
+        if(y == 0) {
+            m_aboveCost = -1;
+            return;
+        }
+        m_aboveCost = aboveCost;
+    }
+    void setLeftCost (Double leftCost, int x){
+        if(x == 0) {
+            m_leftCost = -1;
+            return;
+        }
+        m_leftCost = leftCost;
+    }
+    void setAboveLeftCost (Double aboveLeftCost, int x, int y){
+        if(y == 0 || x == 0 ) {
+            m_aboveLeftCost = -1;
+            return;
+        }
+        m_aboveLeftCost = aboveLeftCost;
+    }
+    void setAboveRightCost (Double aboveRightCost, int x, int y, int resH){
+        if(y == 0 || x == resH || y == x || aboveRightCost == 0){
+            m_aboveRightCost = -1;
+            return;
+        }
+        m_aboveRightCost = aboveRightCost;
+    }
+    void setRmdList (int mode, int i){    m_rmdList[i] = mode;  }
+    void setMpmList (int mode, int i){    m_mpmList[i] = mode;  }
+    void setRmdCostList (int mode, Double cost){    m_rmdCostList[mode] = cost;  }
+    void printToCsv(ofstream& file){
+        file << m_frame << "," << m_posV << "," << m_posH
+             << "," << m_size << "," << m_bestMode << ","
+             << m_bestModeCost << "," << m_variance << "," << m_coBestModeCost << "," << m_aboveCost << "," << m_leftCost << ","
+             << m_aboveLeftCost << "," << m_aboveRightCost << ",";
+
+        for(int i=0; i<mpmList; i++)
+            file << m_mpmList[i] << ",";
+        for(int i=0; i<rmdList; i++)
+            file << m_rmdList[i] << ",";
+        for(int i=0; i<35; i++)
+            file << m_rmdCostList[i] << ",";
+
+        file << endl;
+    }
+
+};
+/*********END IntraData class*************/
 
 /// CU data structure class
 class TComDataCU

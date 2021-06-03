@@ -43,7 +43,7 @@
 #include "TLibCommon/Debug.h"
 #include <math.h>
 #include <limits>
-#include <trained_model.h>
+#include "../../trained_model.h"
 
 extern IntraData m64[mSizeY][mSizeX];
 extern IntraData m64[mSizeY][mSizeX];
@@ -2267,6 +2267,7 @@ TEncSearch::estIntraPredLumaQT(TComDataCU* pcCU,
     initIntraPatternChType( tuRecurseWithPU, COMPONENT_Y, true DEBUG_STRING_PASS_INTO(sTemp2) );
 
     Bool doFastSearch = (numModesForFullRD != numModesAvailable);
+    cout << "numModesFullRd: " << numModesForFullRD << "numModesAvaiiable: " << numModesAvailable << endl;
     if (doFastSearch)
     {
       assert(numModesForFullRD < numModesAvailable);

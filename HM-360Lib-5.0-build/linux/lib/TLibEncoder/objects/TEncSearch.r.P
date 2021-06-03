@@ -52,7 +52,8 @@ objects/TEncSearch.r.o: \
  /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLibEncoder/../../../../source/Lib/TLibEncoder/TEncBinCoderCABACCounter.h \
  /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLibEncoder/../../../../source/Lib/TLibEncoder/TEncCfg.h \
  /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TComTU.h \
- /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/Debug.h
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/Debug.h \
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLibEncoder/../../../../source/Lib/TLibEncoder/../../trained_model.h
  /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLibEncoder/../../../../source/Lib/TLibEncoder/TEncSearch.cpp :
  /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/CommonDef.h :
  /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TypeDef.h :
@@ -107,3 +108,4 @@ objects/TEncSearch.r.o: \
  /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLibEncoder/../../../../source/Lib/TLibEncoder/TEncCfg.h :
  /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TComTU.h :
  /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/Debug.h :
+ /home/bernardo/Documentos/HMREF-Model/HM-360Lib-5.0-build/linux/lib/TLibEncoder/../../../../source/Lib/TLibEncoder/../../trained_model.h :

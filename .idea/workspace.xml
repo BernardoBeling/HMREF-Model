@@ -11,14 +11,16 @@
   <component name="ChangeListManager">
     <list default="true" id="dbf64b76-9ce2-46e2-9f3e-f4501a178d07" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HM-360Lib-5.0-build/linux/app/TAppEncoder/objects/encmain.d.o" beforeDir="false" afterPath="$PROJECT_DIR$/HM-360Lib-5.0-build/linux/app/TAppEncoder/objects/encmain.d.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HM-360Lib-5.0-build/linux/lib/TLibEncoder/objects/TEncSearch.d.P" beforeDir="false" afterPath="$PROJECT_DIR$/HM-360Lib-5.0-build/linux/lib/TLibEncoder/objects/TEncSearch.d.P" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HM-360Lib-5.0-build/linux/lib/TLibEncoder/objects/TEncSearch.d.o" beforeDir="false" afterPath="$PROJECT_DIR$/HM-360Lib-5.0-build/linux/lib/TLibEncoder/objects/TEncSearch.d.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HM-360Lib-5.0-build/linux/lib/TLibEncoder/objects/TEncSearch.r.P" beforeDir="false" afterPath="$PROJECT_DIR$/HM-360Lib-5.0-build/linux/lib/TLibEncoder/objects/TEncSearch.r.P" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HM-360Lib-5.0-build/linux/lib/TLibEncoder/objects/TEncSearch.r.o" beforeDir="false" afterPath="$PROJECT_DIR$/HM-360Lib-5.0-build/linux/lib/TLibEncoder/objects/TEncSearch.r.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/libTLibEncoderStatic.a" beforeDir="false" afterPath="$PROJECT_DIR$/lib/libTLibEncoderStatic.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/libTLibEncoderStaticd.a" beforeDir="false" afterPath="$PROJECT_DIR$/lib/libTLibEncoderStaticd.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/Lib/TLibCommon/TComDataCU.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/Lib/TLibCommon/TComDataCU.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/Lib/TLibEncoder/TEncSearch.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/Lib/TLibEncoder/TEncSearch.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/trained_model.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/trained_model.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/trained_model.c" beforeDir="false" afterPath="$PROJECT_DIR$/source/trained_model.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,14 +58,9 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/HM-360Lib-5.0-build/linux/makefile" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Makefile Target.make 360">
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Makefile Target.make clean 360">
     <configuration name="make 360" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile">
       <makefile filename="$PROJECT_DIR$/HM-360Lib-5.0-build/linux/makefile" target="" workingDirectory="" arguments="-j 8">
         <envs />
@@ -103,7 +100,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622496290452</updated>
-      <workItem from="1622496291597" duration="6208000" />
+      <workItem from="1622496291597" duration="27248000" />
+      <workItem from="1626200619977" duration="1601000" />
     </task>
     <servers />
   </component>
@@ -120,6 +118,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

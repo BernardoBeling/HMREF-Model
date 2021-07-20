@@ -100,6 +100,7 @@ public:
     Double getLeftCost(){  return m_leftCost;    }
     Double getAboveLeftCost(){  return m_aboveLeftCost;    }
     Double getAboveRightCost(){  return m_aboveRightCost;    }
+    Double getRMDCostList(int mode){  return m_rmdCostList[mode];    }
     Int getFrame(){  return m_frame;  }
     Int getRmdList(int i){    return m_rmdList[i];   }
     Int getMpmList(int i){    return m_mpmList[i];   }
@@ -164,7 +165,6 @@ public:
 
         file << endl;
     }
-
 };
 /*********END IntraData class*************/
 

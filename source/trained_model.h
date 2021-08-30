@@ -1,5 +1,5 @@
 #ifndef HMREF_MODEL_TRAINED_MODEL_H
 #define HMREF_MODEL_TRAINED_MODEL_H
 #include <string.h>
-void score(double * input, double * output);
+double score(double * input);
 #endif //HMREF_MODEL_TRAINED_MODEL_H

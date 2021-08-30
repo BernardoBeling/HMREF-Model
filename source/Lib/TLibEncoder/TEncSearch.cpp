@@ -2532,9 +2532,10 @@ TEncSearch::estIntraPredLumaQT(TComDataCU* pcCU,
                 }
                 break;
         }
-        double predict[2];
-        score(features,predict); //predict[0] is the percentage of being false, predict[1] is the percentage of being true
-        predict[0] >= predict[1] ? isDCPlanar = false : isDCPlanar = true;
+        double predict;
+        //do ML prediction
+        predict = score(features); //returns the percentage of being false, (first value in the original array)
+        predict >= 0.5 ? isDCPlanar = false : isDCPlanar = true;
     }
     //===== check modes (using r-d costs) =====
 #if HHI_RQT_INTRA_SPEEDUP_MOD
@@ -2548,20 +2549,27 @@ TEncSearch::estIntraPredLumaQT(TComDataCU* pcCU,
 
 #if ENVIRONMENT_VARIABLE_DEBUG_AND_TEST
     UInt max=numModesForFullRD;
-
     if (DebugOptionList::ForceLumaMode.isSet())
     {
       max=0;  // we are forcing a direction, so don't bother with mode check
     }
     for ( UInt uiMode = 0; uiMode < max; uiMode++)
 #else
-    if(isDCPlanar) numModesForFullRD = 2; //Bernardo Beling DC/PLANAR Model control
+    //Bernardo Beling ML models Rdmode lists
+    UInt uiDcPlanar[2] = {0,1};
     for( UInt uiMode = 0; uiMode < numModesForFullRD; uiMode++ )
 #endif
     {
-        cout << "IsDcPlanar: " << isDCPlanar << " numModesFullRD: " << numModesForFullRD << endl;
       // set luma prediction mode
       UInt uiOrgMode = uiRdModeList[uiMode];
+
+      //Bernardo Beling DC PLANAR MODEL
+      if (frame != 0)
+          if(isDCPlanar) {
+              if(uiMode >= 2)
+                  break;
+              uiOrgMode = uiDcPlanar[uiMode];
+          }
 
       pcCU->setIntraDirSubParts ( CHANNEL_TYPE_LUMA, uiOrgMode, uiPartOffset, uiDepth + uiInitTrDepth );
 
